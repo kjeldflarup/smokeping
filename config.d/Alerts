@@ -1,0 +1,18 @@
+*** Alerts ***
+to = kjeld.flarup@gmail.com
+from = smokeping@liberalismen.dk
+
++someloss
+type = loss
+# in percent
+pattern = >10%,>10%
+comment = loss 2 times in a row
+
+# This rule checks for 3 periods (3 * 5min default) where
+# the rtt is >20ms
++routerrrt
+type = rtt
+# in milli seconds
+pattern = >20,>20,>20
+edgetrigger = yes
+comment = Router has slow response

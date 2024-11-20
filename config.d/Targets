@@ -1,0 +1,81 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+remark = Welcome to the SmokePing website of Kjeld Flarup. \
+         Here you will learn all about the latency of our network.
+
++ Local
+
+menu = Local
+title = Local Network
+
+++ Psykiatriklinikken
+menu = klinik.jegkalinux.dk
+host = klinik.jegkalinux.dk
+alerts = someloss
+
+++ NovaxHosting
+menu = hosting.novax.dk
+host = hosting.novax.dk
+alerts = someloss
+
+++ Omilon
+menu = omilonhosting.dk 194.9.94.86
+host = 194.9.94.86
+alerts = someloss
+
+++ Viptel
+menu = Viptel
+host = 194.247.61.21
+alerts = someloss
+
+++ printer
+menu = printer
+host = 192.168.2.3
+
+++ AirnetPublic
+menu = Airnet router
+host = 194.255.8.97
+
+++ Liberalismen_dk
+menu = Liberalismen_dk
+host = 194.255.8.105
+
+#++ 192_168_2_1
+#title = HTTP latency for ASUS
+#menu = 192_168_2_1
+#host = 192.168.2.1
+#alerts = someloss
+ 
+#++ router_sanity
+#probe = Curl
+#menu = ASUS_router_sanity
+#expect = Main_Login.asp
+#title = HTTP latency for ASUS With sanity check
+#host = 192.168.2.1
+#alerts = routerrrt
+
+#++ minelife
+#menu = minelife.dk
+#host = 145.239.131.214
+
+#++ KjeldTelefon
+#menu = Kjeld Telefon 192.168.2.29
+#host = 192.168.2.29
+
+#++ Galaxy-XCover-4s
+#menu = Galaxy-XCover-4s 192.168.2.18
+#host = 192.168.2.18
+
+#++ pc02
+#menu = PC02 192.168.2.62
+#host = 192.168.2.62
+#
+#++ Acer
+#menu = Acer 192.168.2.64
+#host = 192.168.2.64
+
+

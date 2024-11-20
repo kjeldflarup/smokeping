@@ -1,0 +1,28 @@
+*** Probes ***
+
++ FPing
+
+binary = /usr/sbin/fping
+
++Curl
+
+binary = /usr/bin/curl
+forks = 1
+#offset = 50%
+offset = 0%
+step = 300
+
+# The following variables can be overridden in each target section
+agent = User-Agent: Lynx/2.8.4rel.1 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.6c
+#expect = Status: green
+extraargs = -s # --trace-time # --head # --user user:password
+extrare = / /
+follow_redirects = yes
+include_redirects = yes
+insecure_ssl = 1
+#interface = eth0
+pings = 3
+# unknown require_zero_status = yes
+ssl2 = 1
+timeout = 20
+urlformat = http://%host%/ # mandatory
