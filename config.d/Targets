@@ -36,13 +36,18 @@ alerts = someloss
 menu = printer
 host = 192.168.2.3
 
-++ AirnetPublic
-menu = Airnet router
-host = 194.255.8.97
-
 ++ Liberalismen_dk
 menu = Liberalismen_dk
-host = 194.255.8.105
+host = 188.228.123.174
+
+++ U6-LR2-loft
+menu = U6_LR2_loft
+host = 192.168.2.62
+
+++ U6-LR2-Gaestevaerelse
+menu = U6_LR2_Gaestevaerelse
+host = 192.168.2.52
+
 
 #++ 192_168_2_1
 #title = HTTP latency for ASUS
