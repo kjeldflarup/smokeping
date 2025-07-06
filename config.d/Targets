@@ -22,9 +22,9 @@ menu = hosting.novax.dk
 host = hosting.novax.dk
 alerts = someloss
 
-++ Omilon
-menu = omilonhosting.dk 194.9.94.86
-host = 194.9.94.86
+++ Speechlive
+menu = app.speechlive.com 13.107.246.44
+host = 13.107.246.44
 alerts = someloss
 
 ++ Viptel
